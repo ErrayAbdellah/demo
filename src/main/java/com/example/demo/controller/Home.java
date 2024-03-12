@@ -20,4 +20,9 @@ public class Home {
         return "hello erray";
     }
 
+    @GetMapping("/hello1")
+    public String hello1(){
+        return "hello1  erray";
+    }
+
 }
